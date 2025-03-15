@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikash Das - Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: #111; color: #fff; overflow-x: hidden; }
+        header { text-align: center; padding: 50px 0; }
+        header h1 { font-size: 3em; animation: fadeIn 2s ease-in-out; }
+        .profile-img { display: block; margin: 20px auto; width: 150px; height: 150px; border-radius: 50%; }
+        nav { text-align: center; margin-top: 20px; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; font-size: 1.2em; transition: 0.3s; }
+        nav a:hover { color: #00eaff; }
+        .section { text-align: center; padding: 80px 20px; }
+        .projects { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .card { background: #222; padding: 20px; border-radius: 10px; width: 300px; transition: transform 0.3s; }
+        .card:hover { transform: scale(1.1); }
+        .contact { text-align: center; margin-top: 50px; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bikash Das</h1>
+        <p>Python Developer | AI Enthusiast</p>
+        <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I have experience in Python and a strong interest in AI.</p>
+    </section>
+    
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <p>Python, AI, Machine Learning, Deep Learning, Web Scraping, Flask, Django, Data Science...</p>
+    </section>
+    
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">Calculator</div>
+            <div class="card">Math Equation Solver</div>
+            <div class="card">CV Maker</div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: BIK123ASH@GMAIL.COM</p>
+        <p>Phone: 943803391</p>
+        <p>Instagram: A11IKAS | LinkedIn: A11IKS | GitHub: A11IKAS</p>
+    </section>
+</body>
+</html>
